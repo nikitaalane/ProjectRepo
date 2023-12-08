@@ -33,7 +33,7 @@ function Filters() {
       label='Out of Stock'
       onChange={()=>productDispatch({
         type:"filterbystock",        
-       })}
+       })} 
        checked={stock}/>
       <Button variant="secondary" className='mt-5'
       onClick={()=>productDispatch({
@@ -44,3 +44,5 @@ function Filters() {
 }
 
 export default Filters
+// this project is build for ecommers 
+// it help you
